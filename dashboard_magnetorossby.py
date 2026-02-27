@@ -228,7 +228,7 @@ st.title("Dispersion Equation for Magneto-Rossby and Alfvén Waves")
 with st.sidebar:
     st.header("Background parameters")
 
-    nu_Omega_nHz = st.number_input(r"Rotation $\nu_\Omega$ [nHz]", value=456.0, step=1.0, format="%.1f")
+    nu_Omega_nHz = st.number_input(r"Rotation $\Omega$ [nHz]", value=456.0, step=1.0, format="%.1f")
     R0 = st.number_input(r"Solar radius $R_{\odot}$ [m]", value=6.96e8, step=1.0e7, format="%.3e")
     rho = st.number_input(r"Density $\rho$ [kg m$^{-3}$]", value=1e-2, step=1e-2, format="%.3e")
 

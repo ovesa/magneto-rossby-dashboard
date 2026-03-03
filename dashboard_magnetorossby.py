@@ -200,7 +200,7 @@ def hd_rossby_nu_nHz_sectoral(m, nu_Omega_nHz):
 ############### Streamlit UI ##############
 ###########################################
 
-st.set_page_config(page_title="Magneto-Rossby Dispersion Equation", layout="wide")
+st.set_page_config(page_title="Sectoral Magneto-Rossby Dispersion Equation", layout="wide")
 st.markdown("""
 <style>
 

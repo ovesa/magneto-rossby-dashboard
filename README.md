@@ -10,7 +10,7 @@ The dispersion relations implemented here follow [Zaqarashvili, Oliver, Balleste
 
 ## Features
 
-- **Interactive controls** — adjust rotation rate Ω, solar radius, density ρ, azimuthal order range, and one or more magnetic field strengths *B* via the sidebar.
+- **Interactive controls**: adjust rotation rate (Ω), solar radius (R), density (ρ), azimuthal order range (m), and one or more magnetic field strengths (B) via the sidebar.
 - **Three wave families** plotted simultaneously: HD Rossby baseline, fast and slow magneto-Rossby branches (Eq. 44), and Alfvén branches (±).
 - **B presets** for quick exploration or a custom comma-separated list.
 - **Axis sliders** to zoom into any region of *m*–ν space.
@@ -32,7 +32,7 @@ where:
 
 The two roots correspond to the **fast** (closer to the HD Rossby branch) and **slow** magneto-Rossby branches. The **Alfvén** frequency is given by ν_A = (m / R₀) v_A / 2π. In the limit α → 0, the slow branch recovers the purely hydrodynamic Rossby dispersion relation.
 
-Some notes: (1) **density ρ** has a large effect on the Alfvén speed (and thus α); (2) for very large *B* or low ρ, the slow magneto-Rossby branch can depart significantly from the HD Rossby baseline; (3) the Alfvén branches are symmetric about ν = 0; only the prograde branch is labeled in the legend to avoid duplication; and (4) all frequencies are in nHz, consistent with helioseismology conventions.
+Some notes: (1) density (ρ) has a large effect on the Alfvén speed (and thus α); (2) for very large B or low ρ, the slow magneto-Rossby branch can depart significantly from the HD Rossby baseline; (3) the Alfvén branches are symmetric about ν = 0; only the prograde branch is labeled in the legend to avoid duplication; and (4) all frequencies are in nHz, consistent with helioseismology conventions.
 
 
 ---
